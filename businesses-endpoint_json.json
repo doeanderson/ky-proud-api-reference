@@ -1,0 +1,104 @@
+{
+    "businesses": [
+        {
+            "id": 952,
+            "name": "Berea College Farm",
+            "primary_phone_normalized": "8599853685",
+            "primary_phone_national": "(859) 985-3685",
+            "alternate_phone_normalized": null,
+            "alternate_phone_national": null,
+            "email": "farmstore@berea.edu",
+            "web_url": "https://farm.berea.edu/",
+            "facebook_url": "facebook.com/bereacollegefarm",
+            "instagram_url": "instagram.com/bereacollegefarm",
+            "twitter_url": null,
+            "sales_url": null,
+            "is_b2b": false,
+            "is_dtc": false,
+            "has_farm_impact": false,
+            "can_buy_on_location": false,
+            "is_appalachia_proud": false,
+            "is_homegrown_by_heros": false,
+            "addresses": [
+                {
+                    "id": 11047,
+                    "street1": "311 N Main Street",
+                    "street2": null,
+                    "locality": "Berea",
+                    "region": "KY",
+                    "postal_code": "40404",
+                    "county_code": "073",
+                    "country": "US",
+                    "description": null,
+                    "longitude": -84.288843,
+                    "latitude": 37.575318
+                }
+            ],
+            "categories": [
+                {
+                    "id": 14,
+                    "name": "Manufacturer"
+                },
+                {
+                    "id": 19,
+                    "name": "Retailer"
+                }
+            ],
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Breads",
+                    "type": null,
+                    "is_organic": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Buns",
+                    "type": null,
+                    "is_organic": 1,
+                }
+            ],
+            "product_categories": [
+                {
+                    "id": 29,
+                    "name": "Baked Goods"
+                }
+            ],
+            "programs": [
+                {
+                    "id": 1,
+                    "name": "Farms are Fun"
+                },
+                {
+                    "id": 2,
+                    "name": "Homegrown by Heroes"
+                },
+                {
+                    "id": 3,
+                    "name": "Junior Chef"
+                }
+            ],
+            "live_animals": [
+                {
+                    "id": 1,
+                    "name": "Show Pigs (Berkshire)"
+                },
+                {
+                    "id": 2,
+                    "name": "Show Pigs (Yorkshire)"
+                },
+                {
+                    "id": 3,
+                    "name": "Llamas"
+                }
+            ]
+        }
+    ],
+    "pagination": {
+        "total": 360,
+        "count": 10,
+        "per_page": 10,
+        "current_page": 1,
+        "total_pages": 36
+    }
+}
