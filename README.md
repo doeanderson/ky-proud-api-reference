@@ -1,4 +1,5 @@
 # KY Proud API reference
+Included in this repo is an example JSON block that contains the ideal data structure from our standpoint. Let us know if there are any questions.
 
 ## General structure of the data
 - We expect any data within the results to be active. We will be wholesale replacing the data every time we pull from the API endpoint. Thus we have removed all `status` blocks from our example JSON.
@@ -14,4 +15,4 @@
 - All empty values should be `null`
 - `id` fields should be `integers`
 - `longitude` & `latitude` should be `floats`
-- boolean values should be represented by `1` for true and `0` for false. Actual `true` and `false` values are also acceptable. Please do not use strings as we utilize strict comparision.
+- boolean values should be represented by `true` and `false`. Please do not use strings as we utilize strict comparision.
