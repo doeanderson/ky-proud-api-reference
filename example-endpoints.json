@@ -1,0 +1,153 @@
+// Businesses endpoint example
+{
+    "businesses": [
+        {
+            "id": 952,
+            "name": "Berea College Farm",
+            "primary_phone_normalized": "8599853685",
+            "primary_phone_national": "(859) 985-3685",
+            "alternate_phone_normalized": null,
+            "alternate_phone_national": null,
+            "email": "farmstore@berea.edu",
+            "web_url": "https://farm.berea.edu/",
+            "facebook_url": "facebook.com/bereacollegefarm",
+            "instagram_url": "instagram.com/bereacollegefarm",
+            "twitter_url": null,
+            "sales_url": null,
+            "is_b2b": false,
+            "is_dtc": false,
+            "has_farm_impact": false,
+            "can_buy_on_location": false,
+            "addresses": [
+                1,
+                2,
+                ...
+            ],
+            "business_categories": [
+                1,
+                2,
+                3,
+                ...
+            ],
+            "product_categories": [
+                1,
+                2,
+                3,
+                ...
+            ],
+            "programs": [
+                1,
+                2,
+                3,
+                ...
+            ],
+            "live_animals": [
+                1,
+                2,
+                3,
+                ...
+            ],
+        },
+        ...
+    ]
+}
+
+// Addresses endpoint example
+{
+    "addresses": [
+        {
+            "id": 11047,
+            "street1": "311 N Main Street",
+            "street2": null,
+            "locality": "Berea",
+            "region": "KY",
+            "postal_code": "40404",
+            "county_code": "073",
+            "country": "US",
+            "description": null,
+            "longitude": -84.288843,
+            "latitude": 37.575318
+        }
+    ],
+}
+
+// Business categories endpoint example
+{
+    "business_categories": [
+        {
+            "id": 14,
+            "name": "Manufacturer"
+        },
+        {
+            "id": 19,
+            "name": "Retailer"
+        },
+        ...
+    ]
+}
+
+// Products endpoint example
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Breads",
+            "is_organic": true
+        },
+        {
+            "id": 2,
+            "name": "Buns",
+            "is_organic": true
+        },
+        ...
+    ]
+}
+
+// Product categories endpoint example
+{
+    "product_categories": [
+        {
+            "id": 29,
+            "name": "Baked Goods"
+        },
+        ...
+    ]
+}
+
+// Programs endpoint example
+{
+    "programs": [
+        {
+            "id": 1,
+            "name": "Farms are Fun"
+        },
+        {
+            "id": 2,
+            "name": "Homegrown by Heroes"
+        },
+        {
+            "id": 3,
+            "name": "Junior Chef"
+        },
+        ...
+    ]
+}
+
+// Live animals endpoint example
+{
+    "live_animals": [
+        {
+            "id": 1,
+            "name": "Show Pigs (Berkshire)"
+        },
+        {
+            "id": 2,
+            "name": "Show Pigs (Yorkshire)"
+        },
+        {
+            "id": 3,
+            "name": "Llamas"
+        },
+        ...
+    ]
+}
